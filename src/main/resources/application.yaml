@@ -1,3 +1,9 @@
 spring:
   application:
     name: first-spring-api
+server:
+  port: 8080
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
